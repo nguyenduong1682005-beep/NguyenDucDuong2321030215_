@@ -1,0 +1,10 @@
+#Kết quả bài toán(module_a)
+import module_a
+d = float(input("Nhap chieu dai: "))
+r = float(input("Nhap chieu rong: "))
+print("Dien tich HCN: ", module_a.dien_tich_HCN(d, r))
+print("Chu vi HCN: ", module_a.chu_vi_hcn(d, r))
+a = float(input("Nhap canh hinh vuong: "))
+print("Dien tich HV: ", module_a.dien_tich_hv(a))
+r2 = float(input("Nhap ban kinh hinh tron: "))
+print("Dien tich hinh tron: ", module_a.dien_tich_tron(r2))
